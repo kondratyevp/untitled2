@@ -15,7 +15,6 @@ public class Calculate {
         if ((this.numbers = string.split("(?<=\\+|\\*|-|/)|(?=\\+|\\*|-|/)")).length <= 2) {
             throw new ExpressionException();
         }
-
         return numbers;
     }
 
