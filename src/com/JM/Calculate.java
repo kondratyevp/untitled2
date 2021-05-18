@@ -51,16 +51,16 @@ public class Calculate {
             b = romanNumerals(numbers[2]);
             switch (numbers[1]) {
                 case "+":
-                    System.out.println(romanNumerals.arabicToRoman(a + b));
+                    System.out.println(ArabicRoman.converterArabicToRoman(a + b));
                     break;
                 case "-":
-                    System.out.println(romanNumerals.arabicToRoman(a - b));
+                    System.out.println(ArabicRoman.converterArabicToRoman(a - b));
                     break;
                 case "*":
-                    System.out.println(romanNumerals.arabicToRoman(a * b));
+                    System.out.println(ArabicRoman.converterArabicToRoman(a * b));
                     break;
                 case "/":
-                    System.out.println(romanNumerals.arabicToRoman(a / b));
+                    System.out.println(ArabicRoman.converterArabicToRoman(a / b));
                     break;
             }
         } else {

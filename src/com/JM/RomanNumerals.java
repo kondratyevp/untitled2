@@ -20,8 +20,4 @@ public class RomanNumerals {
         return -1;
     }
 
-    public String arabicToRoman(int arabicNum) {
-
-        return romanNum[arabicNum - 1];
-    }
 }
